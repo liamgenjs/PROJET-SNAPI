@@ -4,8 +4,7 @@ from Game import *
 game = Game()
 
 def setup():
-    size(400, 800)  
+    size(800, 400)  
 
 def draw():
     game.map.draw()
-    print(game.map)
